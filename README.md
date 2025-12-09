@@ -1,13 +1,18 @@
 This repository contains two simple Python programs created as part of an assignment. Each program performs a different task, explained below.
 
-Task 1: Check if a Number is Even or Odd
+Task 1: Calculate Factorial Using a Function  
 Description: This Python program:
-1. Takes an integer input from the user.
-2. Checks whether the number is even or odd using an if-else statement.
-3. Displays the result accordingly.
 
-Task 2: Sum of Integers from 1 to 50 Using a Loop
+- Defines a function named `factorial` that takes a number as an argument and calculates its factorial using a loop or recursion.
+- Returns the calculated factorial.
+- Calls the function with a sample number and prints the output.
+
+Task 2: Using the Math Module for Calculations  
 Description: This Python program:
-1. Uses a for loop to iterate over numbers from 1 to 50.
-2. Calculates the sum of all integers in this range.
-3. Displays the final sum.
+
+- Asks the user for a number as input.
+- Uses the `math` module to calculate the:
+  - Square root of the number
+  - Natural logarithm (log base e) of the number
+  - Sine of the number (in radians)
+- Displays the calculated results.
